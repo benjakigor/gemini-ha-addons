@@ -1,0 +1,11 @@
+name: Gemini LLM Proxy
+version: "1.0"
+slug: gemini_proxy
+description: Simple FastAPI proxy for Google Gemini
+startup: services
+boot: auto
+host_network: true
+options:
+  api_key: ""
+schema:
+  api_key: str
